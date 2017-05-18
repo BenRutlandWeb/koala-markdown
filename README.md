@@ -5,14 +5,25 @@ koala-markdown
 
 A Koala compiler to compile .markdown, .mdown and .md files.
 
+Build Instructions
+------------------
+
+1. run 'npm install'.
+2. create a new koala-markdown.zip file.
+3. add following files to newly created koala-pug.zip file
+    * node_modules
+    * markdown.png
+    * markdownCompiler.js
+    * LICENSE
+    * package.json
+4. rename koala-markdown.zip to koala-markdown.koala-compiler
+
+If you don't want to build the compiler yourself then just grab one from dist directory.
+
 Installation
 ------------
 
-Installation is quite simple.
-
-1. Download the koala-markdown.koala-compiler file from _dist_ directory
-2. Drag-and-drop koala-pug.koala-compiler on Koala application window and wait for the success message.
-
+Installation is quite simple. drag-and-drop koala-markdown.koala-compiler on the Koala application window and wait for the success message.
 
 Credits
 -------
