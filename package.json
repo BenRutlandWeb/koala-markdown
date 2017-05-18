@@ -1,0 +1,97 @@
+{
+	"name": "koala-markdown",
+	
+  "display": "Markdown",
+	
+  "description": "Koala extension to compile Markdown files.",
+	
+  "keywords": [
+        "koala",
+        "compiler",
+        "markdown",
+        "md"     
+    ],
+	
+  "version": "1.0.0",
+	
+  "koalaVersion": ">=2.1.4",
+	
+  "main": "markdownCompiler.js",
+
+	"bugs": {
+		"url": "https://github.com/benrutlandweb/koala-markdown/issues"
+	},
+	
+  "author": {
+		"name": "Ben Rutland",
+		"web": "https://github.com/benrutlandweb"
+	},
+	
+  "contributors": [],
+
+	"maintainers": [
+    {
+      "name": "Ben Rutland",
+      "project": "https://github.com/benrutlandweb/koala-markdown"
+    }
+  ],
+
+	"dependencies": {
+		"markdown-it": "^8.3.1",
+		"html-minifier": "^3.5.0"
+	},
+
+	"engines": {
+		"koala": ">=2.1.4"
+	},
+
+	"licenses": [{
+		"type": "Apache 2.0",
+		"url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oklai/koala.git"
+	},
+
+	"fileTypes": [
+		{
+			"extension": "markdown", 
+			"output": "html",
+			"icon": "markdown.png",
+			"category": "template",
+			"autocompile": false
+		},
+		{
+			"extension": "mdown", 
+			"output": "html",
+			"icon": "markdown.png",
+			"category": "template",
+			"autocompile": false
+		},
+		{
+			"extension": "md", 
+			"output": "html",
+			"icon": "markdown.png",
+			"category": "template",
+			"autocompile": false
+		}
+	],
+
+	"options": [
+		{
+			"type": "description",
+			"display": "Accepted file extensions are: .markdown, .mdown, .md"
+		},
+		{
+			"type": "checkbox",
+			"name": "minifyHTML",
+			"display": "Minify HTML",
+			"default": false
+		}
+
+	],
+
+	"libraries": ["markdown-it@8.3.1","html-minifier@3.5.0"]
+}
