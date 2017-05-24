@@ -76,7 +76,7 @@
 	"options": [
 		{
 			"type": "description",
-			"display": "Accepted file extensions are: .markdown, .mdown, .md"
+			"display": "Accepted file extensions are: .markdown, .mdown, .mkdn, .md, .mkd, .mdwn"
 		},
 		{
 			"type": "checkbox",
