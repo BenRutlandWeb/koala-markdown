@@ -57,26 +57,20 @@
 
 	"fileTypes": [
 		{
-			"extension": "markdown", 
-			"output": "html",
-			"icon": "markdown.png",
-			"category": "template",
-			"autocompile": false
-		},
-		{
-			"extension": "mdown", 
-			"output": "html",
-			"icon": "markdown.png",
-			"category": "template",
-			"autocompile": false
-		},
-		{
-			"extension": "md", 
+			"extension": [
+				"markdown",
+				"mdown",
+				"mkdn",
+				"md",
+				"mkd",
+				"mdwn"
+			], 
 			"output": "html",
 			"icon": "markdown.png",
 			"category": "template",
 			"autocompile": false
 		}
+
 	],
 
 	"options": [
